@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenAI Interactive Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hero-shell">
+    <div class="hero-card">
+      <div class="hero-header">
+        <div>
+          <p class="eyebrow">AI Workspace</p>
+          <h1>GenAI Interactive Hub</h1>
+          <p class="hero-copy">Use the modern interface below to chat, summarize text, or analyze sentiment with one click.</p>
+        </div>
+        <div class="hero-badge">Live AI</div>
+      </div>
+      <div class="tab-row" role="tablist">
+        <button class="tab active" data-panel="chat-panel">Chat</button>
+        <button class="tab" data-panel="summary-panel">Summarize</button>
+        <button class="tab" data-panel="sentiment-panel">Sentiment</button>
+      </div>
+      <section class="panel active" id="chat-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Chat Assistant</h2>
+            <p>Ask questions and get conversational AI responses instantly.</p>
+          </div>
+          <button class="pill-button green" id="clearChat">Clear Chat</button>
+        </div>
+        <div class="chat-window" id="chatWindow"></div>
+        <div class="input-stack">
+          <textarea id="chatInput" placeholder="Enter your question here..."></textarea>
+          <div class="cta-row">
+            <button class="action-button purple" id="sendChat">Send Message</button>
+          </div>
+        </div>
+      </section>
+      <section class="panel" id="summary-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Summarize Text</h2>
+            <p>Paste an article or paragraph and generate a concise summary.</p>
+          </div>
+          <button class="pill-button blue" id="clearSummary">Reset</button>
+        </div>
+        <textarea id="summaryInput" placeholder="Paste text to summarize..."></textarea>
+        <div class="cta-row">
+          <button class="action-button orange" id="summarizeBtn">Summarize</button>
+        </div>
+        <div class="output-card" id="summaryOutput"></div>
+      </section>
+      <section class="panel" id="sentiment-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Sentiment Analysis</h2>
+            <p>Analyze sentiment for a list of reviews or short customer feedback.</p>
+          </div>
+          <button class="pill-button blue" id="clearSentiment">Reset</button>
+        </div>
+        <textarea id="sentimentInput" placeholder="Paste reviews, one per line..."></textarea>
+        <div class="cta-row">
+          <button class="action-button pink" id="sentimentBtn">Analyze Sentiment</button>
+        </div>
+        <div class="output-card" id="sentimentOutput"></div>
+      </section>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

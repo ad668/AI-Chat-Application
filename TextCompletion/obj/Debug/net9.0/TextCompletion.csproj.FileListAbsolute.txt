@@ -1,0 +1,84 @@
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.exe
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.deps.json
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.runtimeconfig.json
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.pdb
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.AssemblyInfoInputs.cache
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.AssemblyInfo.cs
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.csproj.CoreCompileInputs.cache
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\refint\TextCompletion.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.pdb
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.genruntimeconfig.cache
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\ref\TextCompletion.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.AI.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.AI.OpenAI.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\OpenAI.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.csproj.AssemblyReference.cache
+C:\Users\HP\Project\.NET AI\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextComp.3F3B0916.Up2Date
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.csproj.AssemblyReference.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.AssemblyInfoInputs.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.AssemblyInfo.cs
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.csproj.CoreCompileInputs.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\refint\TextCompletion.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.pdb
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.staticwebassets.runtime.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.staticwebassets.endpoints.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.exe
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.deps.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.runtimeconfig.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\TextCompletion.pdb
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.AI.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.AI.OpenAI.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\OpenAI.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\scopedcss\bundle\TextCompletion.styles.css
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\dik75n3f92-{0}-6h8nvszlqv-6h8nvszlqv.gz
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextComp.3F3B0916.Up2Date
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.genruntimeconfig.cache
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\ref\TextCompletion.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\1ineu5bwwl-{0}-ja09geemt0-ja09geemt0.gz
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\20hnryq9nw-{0}-7m392l1hgq-7m392l1hgq.gz

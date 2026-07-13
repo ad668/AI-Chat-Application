@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Project\\.NET AI\\genai-dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9DFCE1-951E-4C95-8D8F-A17F5A52FC16}|TextCompletion\\TextCompletion.csproj|c:\\users\\hp\\project\\.net ai\\genai-dotnet\\textcompletion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9DFCE1-951E-4C95-8D8F-A17F5A52FC16}|TextCompletion\\TextCompletion.csproj|solutionrelative:textcompletion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Project\\.NET AI\\genai-dotnet\\TextCompletion\\Program.cs",
+              "RelativeDocumentMoniker": "TextCompletion\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Project\\.NET AI\\genai-dotnet\\TextCompletion\\Program.cs",
+              "RelativeToolTip": "TextCompletion\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T06:52:25.928Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
