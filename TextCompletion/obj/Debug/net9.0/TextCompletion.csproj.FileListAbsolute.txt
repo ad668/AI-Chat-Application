@@ -71,7 +71,6 @@ C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\scopedcss\bundle\TextCompletion.styles.css
-C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\dik75n3f92-{0}-6h8nvszlqv-6h8nvszlqv.gz
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\staticwebassets.development.json
@@ -80,5 +79,15 @@ C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextComp.3F3B0916.Up2Date
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.genruntimeconfig.cache
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\ref\TextCompletion.dll
-C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\1ineu5bwwl-{0}-ja09geemt0-ja09geemt0.gz
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\20hnryq9nw-{0}-7m392l1hgq-7m392l1hgq.gz
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.sourcelink.json
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\System.Speech.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Speech.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\NAudio.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\NAudio.Asio.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\NAudio.Core.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\NAudio.Midi.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\NAudio.Wasapi.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\bin\Debug\net9.0\NAudio.WinMM.dll
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\1ineu5bwwl-{0}-rhpnnzixmi-rhpnnzixmi.gz
+C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\dik75n3f92-{0}-2zn9yjf25x-2zn9yjf25x.gz

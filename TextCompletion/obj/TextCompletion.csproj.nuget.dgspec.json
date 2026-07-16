@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\textCompletion\\TextCompletion.csproj": {}
+    "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\TextCompletion\\TextCompletion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\textCompletion\\TextCompletion.csproj": {
+    "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\TextCompletion\\TextCompletion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\textCompletion\\TextCompletion.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\TextCompletion\\TextCompletion.csproj",
         "projectName": "TextCompletion",
-        "projectPath": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\textCompletion\\TextCompletion.csproj",
+        "projectPath": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\TextCompletion\\TextCompletion.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\textCompletion\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\TextCompletion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

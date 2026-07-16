@@ -4,14 +4,18 @@ const chatWindow = document.getElementById('chatWindow');
 const chatInput = document.getElementById('chatInput');
 const summaryInput = document.getElementById('summaryInput');
 const sentimentInput = document.getElementById('sentimentInput');
+const textToSpeechInput = document.getElementById('textToSpeechInput');
 const summaryOutput = document.getElementById('summaryOutput');
 const sentimentOutput = document.getElementById('sentimentOutput');
+const textToSpeechOutput = document.getElementById('textToSpeechOutput');
 const sendChat = document.getElementById('sendChat');
 const summarizeBtn = document.getElementById('summarizeBtn');
 const sentimentBtn = document.getElementById('sentimentBtn');
+const textToSpeechBtn = document.getElementById('textToSpeechBtn');
 const clearChat = document.getElementById('clearChat');
 const clearSummary = document.getElementById('clearSummary');
 const clearSentiment = document.getElementById('clearSentiment');
+const clearTextToSpeech = document.getElementById('clearTextToSpeech');
 
 const chatHistory = [
   { role: 'assistant', message: 'Hello! I am your GenAI chat assistant. Ask me anything or use the other tabs for summaries and sentiment.' }
@@ -177,6 +181,31 @@ sentimentBtn.addEventListener('click', async () => {
   }
 });
 
+textToSpeechBtn.addEventListener('click', async () => {
+  const text = textToSpeechInput.value.trim();
+  if (!text) {
+    textToSpeechOutput.textContent = 'Enter text to convert to speech.';
+    return;
+  }
+
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.onstart = () => {
+      textToSpeechOutput.textContent = 'Speaking now...';
+    };
+    utterance.onend = () => {
+      textToSpeechOutput.textContent = 'Speech finished.';
+    };
+    utterance.onerror = () => {
+      textToSpeechOutput.textContent = 'Browser speech failed. Please try a different browser.';
+    };
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  } else {
+    textToSpeechOutput.textContent = 'Text-to-speech is not supported in this browser.';
+  }
+});
+
 clearChat.addEventListener('click', () => {
   chatHistory.length = 0;
   addChatMessage('assistant', 'Chat cleared. Start a new conversation anytime.');
@@ -190,6 +219,11 @@ clearSummary.addEventListener('click', () => {
 clearSentiment.addEventListener('click', () => {
   sentimentInput.value = '';
   sentimentOutput.textContent = '';
+});
+
+clearTextToSpeech.addEventListener('click', () => {
+  textToSpeechInput.value = '';
+  textToSpeechOutput.textContent = '';
 });
 
 renderChat();

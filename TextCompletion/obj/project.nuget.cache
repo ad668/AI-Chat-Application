@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "636I3RgwdK0=",
+  "dgSpecHash": "i2II4ewxiY0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\textCompletion\\TextCompletion.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Project\\task_Genious_WIP\\genai-dotnet\\TextCompletion\\TextCompletion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.ai\\9.8.0\\microsoft.extensions.ai.9.8.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.8.0\\microsoft.extensions.ai.abstractions.9.8.0.nupkg.sha512",

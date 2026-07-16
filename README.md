@@ -1,10 +1,11 @@
 # GenAI Interactive Hub
 
-A simple ASP.NET web app that provides an interactive AI experience with three features:
+A simple ASP.NET web app that provides an interactive AI experience with four features:
 
 - Chat assistant
 - Text summarization
 - Sentiment analysis
+- Text-to-speech playback in the browser
 
 The app uses GitHub Models through the .NET AI SDK and serves a lightweight frontend built with HTML, CSS, and JavaScript.
 
@@ -13,6 +14,7 @@ The app uses GitHub Models through the .NET AI SDK and serves a lightweight fron
 - Ask questions and receive conversational responses
 - Summarize long text into a short clear summary
 - Analyze the sentiment of reviews or short feedback
+- Enter text and listen to speech output directly in the browser
 - Clean and modern responsive interface
 
 ## Tech Stack
@@ -23,30 +25,14 @@ The app uses GitHub Models through the .NET AI SDK and serves a lightweight fron
 - OpenAI client integration
 - Static frontend files in the wwwroot folder
 
-## Project Structure
 
-```text
-genai-dotnet/
-├── TextCompletion/
-│   ├── Program.cs
-│   ├── TextCompletion.csproj
-│   └── wwwroot/
-│       ├── app.js
-│       ├── index.html
-│       └── styles.css
-└── genai-dotnet.sln
-```
 
 ## Prerequisites
 
 - .NET SDK 9.0 or later
 - A GitHub Models API token
 
-## Setup
 
-1. Clone the repository.
-2. Open the project folder.
-3. Configure your GitHub Models token using user secrets:
 
 ```bash
 dotnet user-secrets init
@@ -80,9 +66,10 @@ The app exposes these backend endpoints:
 
 ## Notes
 
+- Text-to-speech playback is handled in the browser using the Web Speech API.
+- Audio files are no longer saved on the server; speech plays directly in the interface.
+
 - The app expects the GitHub Models token to be available in user secrets under the key `GithubModels:Token`.
 - If the backend is not running, the frontend will show an error message instead of a response.
 
-## License
 
-This project is for educational and demonstration purposes.
