@@ -6,12 +6,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddUserSecrets<Program>();
 
 var token = builder.Configuration["GithubModels:Token"]
+    ?? builder.Configuration["GITHUB_MODELS_TOKEN"]
+    ?? builder.Configuration["githubmodels_token"]
+    ?? builder.Configuration["GithubModels__Token"]
+    ?? builder.Configuration["githubmodels__token"]
     ?? Environment.GetEnvironmentVariable("GITHUB_MODELS_TOKEN")
-    ?? Environment.GetEnvironmentVariable("GithubModels__Token");
+    ?? Environment.GetEnvironmentVariable("githubmodels_token")
+    ?? Environment.GetEnvironmentVariable("GithubModels__Token")
+    ?? Environment.GetEnvironmentVariable("githubmodels__token");
 
 if (string.IsNullOrWhiteSpace(token))
 {
-    throw new InvalidOperationException("GitHub API token is missing in configuration. Set GithubModels:Token in app settings, use the environment variable GITHUB_MODELS_TOKEN, or use GithubModels__Token for ASP.NET config binding.");
+    throw new InvalidOperationException("GitHub API token is missing in configuration. Set GithubModels:Token in app settings, use the environment variable GITHUB_MODELS_TOKEN, or use GithubModels__Token / githubmodels__token for ASP.NET config binding.");
 }
 
 var credentials = new ApiKeyCredential(token);
