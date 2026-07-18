@@ -5,7 +5,13 @@ using System.ClientModel;
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddUserSecrets<Program>();
 
-var credentials = new ApiKeyCredential(builder.Configuration["GithubModels:Token"] ?? throw new InvalidOperationException("GitHub API token is missing in configuration."));
+var token = builder.Configuration["GithubModels:Token"] ?? Environment.GetEnvironmentVariable("GITHUB_MODELS_TOKEN");
+if (string.IsNullOrWhiteSpace(token))
+{
+    throw new InvalidOperationException("GitHub API token is missing in configuration. Set GithubModels:Token in configuration or the GITHUB_MODELS_TOKEN environment variable.");
+}
+
+var credentials = new ApiKeyCredential(token);
 var options = new OpenAIClientOptions()
 {
     Endpoint = new Uri("https://models.github.ai/inference")
