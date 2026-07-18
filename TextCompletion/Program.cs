@@ -5,10 +5,13 @@ using System.ClientModel;
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddUserSecrets<Program>();
 
-var token = builder.Configuration["GithubModels:Token"] ?? Environment.GetEnvironmentVariable("GITHUB_MODELS_TOKEN");
+var token = builder.Configuration["GithubModels:Token"]
+    ?? Environment.GetEnvironmentVariable("GITHUB_MODELS_TOKEN")
+    ?? Environment.GetEnvironmentVariable("GithubModels__Token");
+
 if (string.IsNullOrWhiteSpace(token))
 {
-    throw new InvalidOperationException("GitHub API token is missing in configuration. Set GithubModels:Token in configuration or the GITHUB_MODELS_TOKEN environment variable.");
+    throw new InvalidOperationException("GitHub API token is missing in configuration. Set GithubModels:Token in app settings, use the environment variable GITHUB_MODELS_TOKEN, or use GithubModels__Token for ASP.NET config binding.");
 }
 
 var credentials = new ApiKeyCredential(token);
