@@ -41,8 +41,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 app.UseCors();
-app.UseDefaultFiles();
-app.UseStaticFiles();
 
 app.MapPost("/api/chat", async (ChatRequest request) =>
 {
@@ -85,7 +83,6 @@ app.MapPost("/api/sentiment", async (SentimentRequest request) =>
     return Results.Ok(new ApiResponse(response?.Text ?? "No sentiment returned."));
 });
 
-app.MapFallbackToFile("index.html");
 app.Run();
 
 internal sealed record ChatRequest(string Message);

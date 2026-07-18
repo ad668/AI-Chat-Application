@@ -79,7 +79,4 @@ C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextComp.3F3B0916.Up2Date
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.genruntimeconfig.cache
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\ref\TextCompletion.dll
-C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\20hnryq9nw-{0}-7m392l1hgq-7m392l1hgq.gz
 C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\TextCompletion.sourcelink.json
-C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\1ineu5bwwl-{0}-zhgnbrfw0a-zhgnbrfw0a.gz
-C:\Users\HP\Project\task_Genious_WIP\genai-dotnet\TextCompletion\obj\Debug\net9.0\compressed\dik75n3f92-{0}-415y8u16q0-415y8u16q0.gz
