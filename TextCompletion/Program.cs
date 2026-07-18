@@ -15,19 +15,24 @@ var token = builder.Configuration["GithubModels:Token"]
     ?? Environment.GetEnvironmentVariable("GithubModels__Token")
     ?? Environment.GetEnvironmentVariable("githubmodels__token");
 
+OpenAIClient? openAiClient = null;
+IChatClient? chatClient = null;
+
 if (string.IsNullOrWhiteSpace(token))
 {
-    throw new InvalidOperationException("GitHub API token is missing in configuration. Set GithubModels:Token in app settings, use the environment variable GITHUB_MODELS_TOKEN, or use GithubModels__Token / githubmodels__token for ASP.NET config binding.");
+    Console.WriteLine("WARNING: GitHub API token is missing. OpenAI endpoints will return 503 until GITHUB_MODELS_TOKEN or GithubModels__Token is configured.");
 }
-
-var credentials = new ApiKeyCredential(token);
-var options = new OpenAIClientOptions()
+else
 {
-    Endpoint = new Uri("https://models.github.ai/inference")
-};
+    var credentials = new ApiKeyCredential(token);
+    var options = new OpenAIClientOptions()
+    {
+        Endpoint = new Uri("https://models.github.ai/inference")
+    };
 
-var openAiClient = new OpenAIClient(credentials, options);
-var chatClient = openAiClient.GetChatClient("openai/gpt-4.1").AsIChatClient();
+    openAiClient = new OpenAIClient(credentials, options);
+    chatClient = openAiClient.GetChatClient("openai/gpt-4.1").AsIChatClient();
+}
 
 builder.Services.AddCors(options =>
 {
@@ -41,6 +46,11 @@ app.UseStaticFiles();
 
 app.MapPost("/api/chat", async (ChatRequest request) =>
 {
+    if (chatClient is null)
+    {
+        return Results.Problem("GitHub API token is missing. Set GITHUB_MODELS_TOKEN or GithubModels__Token in environment variables.", statusCode: 503);
+    }
+
     var prompt = new[]
     {
         new ChatMessage(ChatRole.System, "You are a friendly AI assistant that responds clearly and helpfully."),
@@ -53,6 +63,11 @@ app.MapPost("/api/chat", async (ChatRequest request) =>
 
 app.MapPost("/api/summarize", async (SummaryRequest request) =>
 {
+    if (chatClient is null)
+    {
+        return Results.Problem("GitHub API token is missing. Set GITHUB_MODELS_TOKEN or GithubModels__Token in environment variables.", statusCode: 503);
+    }
+
     var prompt = $"Summarize the following text in 2 clear sentences:\n\n{request.Text}";
     var response = await chatClient.GetResponseAsync(prompt);
     return Results.Ok(new ApiResponse(response?.Text ?? "No summary returned."));
@@ -60,6 +75,11 @@ app.MapPost("/api/summarize", async (SummaryRequest request) =>
 
 app.MapPost("/api/sentiment", async (SentimentRequest request) =>
 {
+    if (chatClient is null)
+    {
+        return Results.Problem("GitHub API token is missing. Set GITHUB_MODELS_TOKEN or GithubModels__Token in environment variables.", statusCode: 503);
+    }
+
     var prompt = $"Analyze sentiment for the text below. Return a short summary and label the overall tone as Positive, Neutral, or Negative:\n\n{request.Text}";
     var response = await chatClient.GetResponseAsync(prompt);
     return Results.Ok(new ApiResponse(response?.Text ?? "No sentiment returned."));
